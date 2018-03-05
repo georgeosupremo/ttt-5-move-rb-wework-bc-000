@@ -13,7 +13,11 @@ input = gets.strip
 
 index = input_to_index(input)
 
+<<<<<<< HEAD
 move(board,index,token="X")
+=======
+move = board
+>>>>>>> 86fa8e85c5c9d498751ff322ff48368615662852
 
 display_board(board)
 
